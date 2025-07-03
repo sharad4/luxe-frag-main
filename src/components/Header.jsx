@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Heart, ShoppingCart, Menu, X } from 'lucide-react';
 
 const Header = ({ currentPage, setCurrentPage, cart }) => {
-    console.log('Cart: ', cart.push('a'));
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (

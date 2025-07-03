@@ -8,7 +8,7 @@ const ProductDetail = ({ product, setSelectedProduct, addToCart }) => {
          onClick={() => setSelectedProduct(null)}
          className='mb-8 text-purple-600 hover:text-purple-700 font-semibold flex items-center'
         >
-           ⬅ Back to Collection
+           ← Back to Collection
         </button>
 
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
