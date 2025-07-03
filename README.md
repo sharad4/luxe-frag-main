@@ -120,54 +120,6 @@ A modern, luxury perfume e-commerce website built with React 19, Vite, and Tailw
 - **Slide**: Mobile menu transitions
 - **Gradient**: Color transitions
 
-## 🛠️ Customization
-
-### Adding New Products
-
-1. Edit the `products` array in the main component
-2. Add product images to `/public/images/`
-3. Update product data structure as needed
-
-### Styling Modifications
-
-- Modify Tailwind classes in components
-- Update color scheme in Tailwind config
-- Add custom CSS in `index.css`
-
-### Animation Customization
-
-- Adjust CSS transition durations
-- Modify transform properties
-- Add new animation classes
-
-## 📱 Responsive Breakpoints
-
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: 1024px+
-
-## 🚀 Build & Deploy
-
-### Build for Production
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-### Deploy to Netlify
-
-1. Build the project
-2. Deploy `dist/` folder to Netlify
-3. Configure redirects for SPA routing
-
-### Deploy to Vercel
-
-1. Connect GitHub repository
-2. Configure build settings
-3. Deploy automatically on push
-
 ## 📊 Performance Optimizations
 
 - **Image Optimization**: WebP format with fallbacks
@@ -175,24 +127,6 @@ yarn build
 - **Lazy Loading**: Images and components
 - **Minification**: CSS and JavaScript
 - **Caching**: Service worker implementation
-
-## 🧪 Testing
-
-### Unit Tests
-
-```bash
-npm run test
-# or
-yarn test
-```
-
-### E2E Tests
-
-```bash
-npm run test:e2e
-# or
-yarn test:e2e
-```
 
 ## 📈 Analytics & SEO
 
@@ -208,14 +142,6 @@ yarn test:e2e
 - Google Analytics 4
 - Conversion tracking
 - User behavior analysis
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## 📄 License
 
